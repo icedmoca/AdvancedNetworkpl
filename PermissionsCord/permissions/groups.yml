@@ -1,0 +1,76 @@
+default:
+  permissions:
+  - breport.command.report
+  - bungeecord.command.server
+  - bungeecord.command.find
+  - bungeecord.command.list
+  - hubmagic.hub
+  - litebans.notify.broadcast
+  - litebans.notify.clearchat
+  - litebans.notify.warned
+  - litebans.notify.muted
+admin:
+  permissions:
+  - breport.command.report
+  - breport.reports.receive
+  - breport.command.reload
+  - breport.reports.goto
+  - breport.command.exempt
+  - breport.command.checkreports
+  - breport.command.delhistory
+  - bungeepluginmanager.cmds
+  - obsidianbox.alert​
+  - obsidianbox.reload
+  - advancedalert.command.use
+  - advancedalert.command.alert
+  - advancedpackage.command.use
+  - advancedpackage.command.maintenance
+  - advancedpackage.maintenance.join
+  - bungeecord.command.server
+  - bungeecord.command.find
+  - bungeecord.command.list
+  - hubmagic.admin
+  - hubmagic.hub
+  - litebans.notify.broadcast
+  - litebans.notify.clearchat
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.send
+  - nspy.use
+  - nspy.bypass
+  - nspy.receive
+  - litebans.*
+  - ebl.command.reload
+helper:
+  permissions:
+  - litebans.clearchat
+  - litebans.clearchat.bypass
+  - litebans.warn
+  - litebans.warnings
+  - litebans.banlist
+  - litebans.unmute
+  - litebans.unban
+  - litebans.unwarn
+  - litebans.kick
+  - litebans.tabcomplete
+  - litebans.tempban
+  - bungeecord.command.server
+  - bungeecord.command.find
+  - bungeecord.command.list
+  - hubmagic.hub
+  - litebans.notify.broadcast
+  - litebans.notify.clearchat
+  - bungeecord.command.alert
+  - bungeecord.command.ip
+  - litebans.mutechat
+  - litebans.checkmute
+  - litebans.checkban
+  - litebans.mutechat.bypass
+  - litebans.banlist
+  - litebans.history
+  - litebans.iphistory
+  - nspy.use
+  - nspy.bypass
+  - nspy.receive

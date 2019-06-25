@@ -1,0 +1,10 @@
+sql:
+  enabled: false
+  address: localhost
+  user: root
+  port: 3306
+  password: walrus
+  database: pcord
+  prefix: ''
+configVersion: 1.0.2
+cacheIds: true

@@ -1,0 +1,6 @@
+port: 8002
+users:
+  olget: 
+    password: pixelcraft
+    permissions:
+      - '*'

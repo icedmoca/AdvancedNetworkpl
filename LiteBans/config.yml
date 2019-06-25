@@ -1,0 +1,120 @@
+bungeecord: true
+sync: false
+sync_broadcasts: false
+sync_notifications: false
+sync_dupeip_notifications: false
+server_name: 'WanillaWars'
+default_server_scope: '*'
+sql:
+  driver: H2
+  address: 127.0.0.1:3306
+  database: vanillaw_litebans
+  username: vanillaw_olget
+  password: vanillawars
+  table_prefix: 'litebans_'
+  pool:
+    min_connections: 1
+    max_connections: 10
+    timeout: 30 seconds
+    idle_timeout: 1 minute
+  engine: InnoDB
+  options: 'useSSL=true'
+  drivers:
+    - version:1
+    - 'mysql:com.mysql.jdbc.Driver:https://repo1.maven.org/maven2/mysql/mysql-connector-java/{}/mysql-connector-java-{}.jar:6.0.6'
+    - 'pgsql:org.postgresql.Driver:https://repo1.maven.org/maven2/org/postgresql/postgresql/{}/postgresql-{}.jar:9.4-1201-jdbc41'
+    - 'mariadb:org.mariadb.jdbc.Driver:https://repo1.maven.org/maven2/org/mariadb/jdbc/mariadb-java-client/{}/mariadb-java-client-{}.jar:2.0.3'
+    - 'sqlite:org.sqlite.JDBC:https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/{}/sqlite-jdbc-{}.jar:3.8.11.1'
+    - 'h2:org.h2.Driver:https://repo1.maven.org/maven2/com/h2database/h2/{}/h2-{}.jar:1.4.196'
+durations:
+  limits:
+    helper:
+      permission: litebans.group.helper
+      tempban: 15 days
+      tempmute: 7 days
+    other:
+      permission: none
+      tempban: 7 days
+      tempmute: 1 day
+  round_down: true
+mutes:
+  enabled: true
+  command_blacklist:
+    - /reply
+    - /msg
+  mutechat_command_blacklist:
+    - /reply
+    - /msg
+  prevent_bypass: true
+require_ban_mute_reason: false
+warnings:
+  expire_after: 7 days
+  actions:
+    - '3:/tempban $player 7 days Reached 3 Warnings'
+  actions_execute_as_console: true
+  delete_warnings_after_action: true
+notify:
+  banned_player_join: false
+  dupeip_on_join: false
+  dupeip_on_banned_account: true
+  dupeip_show_muted_accounts: true
+  dupeip_on_join_threshold: 9999999
+  notify_console: false
+exempt:
+  enable: false
+  permission_world: default
+  exempt_groups: []
+  exempt_players: []
+geoip:
+  enable: false
+  blacklist: []
+  whitelist: []
+  download:
+    api:
+      - https://repo1.maven.org/maven2/com/maxmind/geoip2/geoip2/2.1.0/geoip2-2.1.0.jar
+      - https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.4.3/jackson-databind-2.4.3.jar
+      - https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.4.3/jackson-core-2.4.3.jar
+      - https://repo1.maven.org/maven2/com/maxmind/db/maxmind-db/1.0.0/maxmind-db-1.0.0.jar
+      - https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.4.3/jackson-annotations-2.4.3.jar
+    db: https://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.mmdb.gz
+import:
+  from: maxbans
+  sqlite: false
+  sqlite_file: plugins/MaxBans/bans.db
+  import_ipbans: true
+  import_mysql_address: localhost:3306
+  import_mysql_database: maxbans
+  import_mysql_username: ''
+  import_mysql_password: ''
+security:
+  dupeip: false
+  iphistory: false
+  sqlexec: false
+use_display_names: false
+console_sender_name: CONSOLE
+hidden_dupeip_players: []
+ban_cooldown: 3
+warning_cooldown: 3
+autocomplete_online_player_names: true
+dupeip_scan_all_ips: false
+ipreport_minimum_accounts: 1
+delete_previous_history: true
+unban_all_history: false
+banlist_bans_per_page: 5
+banlist_show_active_only: true
+support_authme: false
+lockdown:
+  persist_enabled: true
+debug_level: 0
+ban_names: false
+ignored_kick_messages: ['restarting']
+notification_throttle_ticks: 12000
+use_database_time: true
+update_check: true
+check_after_join: false
+use_protocollib: false
+override_lower_duration: true
+ignored_history_servers: []
+use_timezone: true
+sync_poll_ticks: 20
+sync_poll_skip: 5

@@ -1,0 +1,12 @@
+fadein: 20
+staytime: 60
+fadeout: 20
+title: '&c&l[!] &cAlert by &7{sender}&c!'
+sub-title: '&7&o(( {message}! ))'
+alert-usage: '&c&l(!) &cIncorrect usage! Use "/{command} <message>" instead!'
+successfully-alert: '&e&l(!) &eYou have &6successfully &ealerted all players!'
+command-usage: '&c&l(!) &cIncorrect usage! Use "/{command} <reload>" instead!'
+reload-config: '&e&l(!) &eThe config.yml file was reloaded!'
+invalid-command: '&c&l(!) &cInvalid command! Use "/{command}" for help!'
+main-command-permission: 'advancedalert.command.use'
+alert-permission: 'advancedalert.command.alert'

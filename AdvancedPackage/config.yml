@@ -1,0 +1,128 @@
+maintenance-mode-enabled: false
+address-limit: 3
+allowed-protocol-versions: ALL
+whitelist-players:
+- olget
+maintenance-mode:
+  head-favicon: false
+  ping: true
+  icon:
+  - BUKKIT
+  version:
+  - '&e⚠ &cMaintenance Mode &e⚠&r'
+  favicon:
+  - maintenance-mode.png
+  motd:
+  - '<center>&f&l« &6&l*&e&l*&6&l* &f&l» &e&lVANILLA &f&lWARS &f&l« &6&l*&e&l*&6&l* &f&l»</center>;<center>&7&o(( This network is in &f&oMaintenance Mode&7&o! ))</center>'
+  - '<center>&2&l« &c&l*&a&l*&c&l* &2&l» &e&lVANILLA &f&lWARS &2&l« &c&l*&a&l*&c&l* &2&l»</center>;<center>&7&o(( This network is in &f&oMaintenance Mode&7&o! ))</center>' 
+  - '<center>&3&l« &d&l*&b&l*&d&l* &3&l» &e&lVANILLA &f&lWARS &3&l« &d&l*&b&l*&d&l* &3&l»</center>;<center>&7&o(( This network is in &f&oMaintenance Mode&7&o! ))</center>' 
+  - '<center>&4&l« &c&l*&f&l*&c&l* &4&l» &e&lVANILLA &f&lWARS &4&l« &c&l*&f&l*&c&l* &4&l»</center>;<center>&7&o(( This network is in &f&oMaintenance Mode&7&o! ))</center>'  
+  count:
+  - '&r'
+  - '&c▉▉▉▉▉▉▉▉'
+  - '&c▉▉▉&f▉▉&c▉▉▉              &f&l<&c&l!&f&l> &c&lMaintenance Mode &f&l<&c&l!&f&l>'
+  - '&c▉▉▉&f▉▉&c▉▉▉'
+  - '&c▉▉▉&f▉▉&c▉▉▉       &c&l(!) &cThis network is in maintenance mode!'
+  - '&c▉▉▉&f▉▉&c▉▉▉           &7&o(( Please try back again soon! ))'
+  - '&c▉▉▉▉▉▉▉▉'
+  - '&c▉▉▉&f▉▉&c▉▉▉         &eCopyright © 2019 &f&nwww.vanillawars.net'
+  - '&c▉▉▉▉▉▉▉▉'
+  - '&r'
+protocol-version:
+  head-favicon: true
+  ping: true
+  icon:
+  - VANILLA
+  version:
+  - '&6* &eUptime &7{uptime}&r'
+  favicon:
+  - protocol-version.png
+  motd:
+  - '<center>&f&l« &6&l*&e&l*&6&l* &f&l» &e&lVANILLA &f&lWARS &f&l« &6&l*&e&l*&6&l* &f&l»</center>;<center>&7&o(( Home of all the greatest &f&oMinecraft Heroes&7&o! ))</center>'
+  - '<center>&2&l« &c&l*&a&l*&c&l* &2&l» &e&lVANILLA &f&lWARS &2&l« &c&l*&a&l*&c&l* &2&l»</center>;<center>&7&o(( Home of all the greatest &f&oMinecraft Heroes&7&o! ))</center>'
+  - '<center>&3&l« &d&l*&b&l*&d&l* &3&l» &e&lVANILLA &f&lWARS &3&l« &d&l*&b&l*&d&l* &3&l»</center>;<center>&7&o(( Home of all the greatest &f&oMinecraft Heroes&7&o! ))</center>'
+  - '<center>&4&l« &c&l*&f&l*&c&l* &4&l» &e&lVANILLA &f&lWARS &4&l« &c&l*&f&l*&c&l* &4&l»</center>;<center>&7&o(( Home of all the greatest &f&oMinecraft Heroes&7&o! ))</center>'
+  count:
+  - '&r'
+  - '&e▉▉▉▉▉▉▉▉'
+  - '&e▉▉▉&0▉▉&e▉▉▉                  &f&l<&e&l!&f&l> &e&lVanilla Wars &f&l<&e&l!&f&l>'
+  - '&e▉&0▉▉&e▉▉&0▉▉&e▉'
+  - '&e▉▉▉▉▉&0▉▉&e▉   &e&l(!) &eHome of all the greatest Minecraft Heroes!'
+  - '&e▉▉▉&0▉▉&e▉▉▉    &7&o(( Tip: &f&oDouble Click &7&oto join on this network! ))'
+  - '&e▉▉▉▉▉▉▉▉'
+  - '&e▉▉▉&0▉▉&e▉▉▉         &eCopyright © 2019 &f&nwww.vanillawars.net'
+  - '&e▉▉▉▉▉▉▉▉'
+  - '&r'
+outdated-client:
+  head-favicon: false
+  ping: true
+  icon:
+  - FML
+  version:
+  - '&e⚠ &cOutdated Client &e⚠&r'
+  favicon:
+  - outdated-client.png
+  motd:
+  - '<center>&f&l« &6&l*&e&l*&6&l* &f&l» &e&lVANILLA &f&lWARS &f&l« &6&l*&e&l*&6&l* &f&l»</center>;<center>&7&o(( Please use &f&o1.13.2 Minecraft &7&oversion! ))</center>'
+  - '<center>&2&l« &c&l*&a&l*&c&l* &2&l» &e&lVANILLA &f&lWARS &2&l« &c&l*&a&l*&c&l* &2&l»</center>;<center>&7&o(( Please use &f&o1.13.2 Minecraft &7&oversion! ))</center>'
+  - '<center>&3&l« &d&l*&b&l*&d&l* &3&l» &e&lVANILLA &f&lWARS &3&l« &d&l*&b&l*&d&l* &3&l»</center>;<center>&7&o(( Please use &f&o1.13.2 Minecraft &7&oversion! ))</center>'
+  - '<center>&4&l« &c&l*&f&l*&c&l* &4&l» &e&lVANILLA &f&lWARS &4&l« &c&l*&f&l*&c&l* &4&l»</center>;<center>&7&o(( Please use &f&o1.13.2 Minecraft &7&oversion! ))</center>'
+  count:
+  - '&r'
+  - '&c▉▉▉▉▉▉▉▉'
+  - '&c▉▉▉&f▉▉&c▉▉▉                &f&l<&c&l!&f&l> &c&lOutdated Client &f&l<&c&l!&f&l>'
+  - '&c▉▉▉&f▉▉&c▉▉▉'
+  - '&c▉▉▉&f▉▉&c▉▉▉       &c&l(!) &cPlease use 1.13.2 Minecraft version!'
+  - '&c▉▉▉&f▉▉&c▉▉▉      &7&o(( You are using unsupported version! ))'
+  - '&c▉▉▉▉▉▉▉▉'
+  - '&c▉▉▉&f▉▉&c▉▉▉         &eCopyright © 2019 &f&nwww.vanillawars.net'
+  - '&c▉▉▉▉▉▉▉▉'
+  - '&r'
+online-players:
+  custom:
+    enabled: false
+    online: 10000
+    max-online: 10000
+  random:
+    enabled: true
+    online:
+      minimum: 49950
+      maximum: 50000
+    maximum: 50000
+  just-one-more:
+    enabled: false
+  boosted-players:
+    enabled: false
+    multipier: 2
+    maximum: 2018
+countdown:
+  timezone: EET
+  date-end: 12/18/18 17:00:00
+  date-format: MM/dd/yy HH:mm:ss
+time-format:
+  uptime-split: ' '
+  countdown-split: ' '
+permissions:
+  main-command: advancedpackage.command.use
+messages:
+  command-usage: '&c&l(!) &cIncorrect usage! Use "/{command} <reload|maintenance>"
+    instead!'
+  command-usage-maintenance: '&c&l(!) &cIncorrect usage! Use "/{command} maintenance
+    <toggle|add|remove>" instead!'
+  command-usage-maintenance-add: '&c&l(!) &cIncorrect usage! Use "/{command} maintenance
+    add <player>" instead!'
+  command-usage-maintenance-remove: '&c&l(!) &cIncorrect usage! Use "/{command} maintenance
+    remove <player>" instead!'
+  reload-config: '&e&l(!) &eThe config.yml file was reloaded!'
+  invalid-command: '&c&l(!) &cInvalid command! Use "/{command}" for help!'
+  maintenance-enabled: '&e&l(!) &eThe maintenance mode was successfully &6enabled
+    &eby &6{sender}&e!'
+  maintenance-disabled: '&e&l(!) &eThe maintenance mode was successfully &6disabled
+    &eby &6{sender}&e!'
+  maintenance-kick: '&c&l(!) &cThis network is in maintenance mode!'
+  outdated-client: '&c&l(!) &cYou are using unsupported Minecraft version!'
+  whitelist-added: '&c&l(!) &cAdded &7{player} &cto the maintenance whitelist!'
+  whitelist-already-added: '&c&l(!) &7{player} &calready is in the maintenance whitelist!'
+  whitelist-removed: '&c&l(!) &cRemoved &7{player} &cfrom the maintenance whitelist!'
+  whitelist-not-found: '&c&l(!) &cThis player is not in the maintenance whitelist!'
+  address-limit: '&c&l(!) &cToo many connections from this IP address!'

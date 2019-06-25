@@ -1,0 +1,3 @@
+offline_message: '&c&l[!] &cThe service &7%service% &cis offline!'
+ping_delay: 5
+check_delay: 5

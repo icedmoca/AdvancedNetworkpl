@@ -1,0 +1,52 @@
+command:
+  global-list:
+    label: glist
+    permission: bungeecord.command.list
+    aliases: []
+formats:
+  global-list:
+    server-row-format: '&6* &e{SERVER_NAME} &7{PLAYER_AMOUNT} Online {GRAPHIC_BAR}
+      &f&l<&e{PERCENT}&f&l>'
+    graphic-background-color: '&c&l'
+    graphic-bar-color: '&a&l'
+    full-message-format:
+    - '&6&l*&e&l*&6&l* &e&lGlobal List &6&l*&e&l*&6&l*'
+    - ''
+    - '{SERVERS_ROWS}'
+    - '&6* &eTotal Players &7{TOTAL_PLAYER_AMOUNT}'
+    - ''
+    - '&7&o(( Tip: Use &f&o/{LABEL} <server> &7&ofor more information! ))'
+    no-servers-format: '&cNo servers to display.'
+  server-list:
+    full-message-format:
+    - '&6&l*&e&l*&6&l* &e&lTotal Players &6&l*&e&l*&6&l*'
+    - ''
+    - '&6* &eServer Name &7{SERVER_NAME}'
+    - '&6* &eOnline Players &7{PLAYERS_COUNT}'
+    - '&6* &eDisplaying Page &7{PAGE} of {TOTAL_PAGES}'
+    - ''
+    - '{PLAYERS_ROWS}'
+    - '  {PAGINATION_CONTROLLER}'
+    no-page-data-message:
+    - '&c&l(!) &cNo data to show in this page!'
+    no-players-message:
+    - '&c&l(!) &cThis server not have players at this moment!'
+behaviour:
+  global-list:
+    hide-empty-servers: true
+    max-servers-rows: 20
+    min-player-count-to-display-server: 0
+  server-list:
+    players-per-page: 16
+  blacklisted-servers: []
+  global-list-uppercase-server-names: false
+  server-list-uppercase-server-name: false
+messages:
+  server-players: '{SERVER_NAME} players:'
+  cannot-found-server: '&c&l(!) &cThe specified server cannot be found in the network.'
+  previous-page-hover-message: '&eClick here to go to the page &f#{PAGE_NUMBER}'
+  next-page-hover-message: '&eClick here to go to the page &f#{PAGE_NUMBER}'
+  previous-page: Previous Page
+  next-page: Next Page
+  no-previous-page: '&c&l(!) No previous page available!'
+  no-next-page: '&c&l(!) No next page available!'

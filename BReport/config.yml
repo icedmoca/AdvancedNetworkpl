@@ -1,0 +1,58 @@
+MYSQL:
+  ENABLED: false
+  HOST: localhost
+  PORT: 3306
+  USERNAME: root
+  DATABASE: prueba
+  PASSWORD: jyIUtq9YnsGGh8Vk
+Report_Cooldown: 30
+Cooldown_Wait: '&c&l(!) &cYou must wait &7%time% seconds &cto report again!'
+Player_Offline: '&c&l(!) &cThis player is offline!'
+Cant_Report_Your_Self: '&c&l(!) &cYou cannot report your self!'
+Cant_Report: '&c&l(!) &cThe player &7%player% &cevades this command!'
+Usage: '&c&l(!) &cIncorrect usage! Use "/report <player> <reason>" instead!'
+No_Permission: |-
+  &r
+  &c▉▉▉▉▉▉▉▉
+  &c▉▉▉&f▉▉&c▉▉▉                   &f&l<&c&l!&f&l> &c&lError 403 &f&l<&c&l!&f&l>
+  &c▉▉▉&f▉▉&c▉▉▉
+  &c▉▉▉&f▉▉&c▉▉▉   &c&l(!) &cYou do not have access to that command!
+  &c▉▉▉&f▉▉&c▉▉▉  &7&o(( You need to be staff to use this command! ))
+  &c▉▉▉▉▉▉▉▉
+  &c▉▉▉&f▉▉&c▉▉▉         &eCopyright © 2019 &f&nwww.vanillawars.net
+  &c▉▉▉▉▉▉▉▉
+  &r
+Player_Reported: '&c&l(!) &7%player% &chas been reported!'
+Restricted-Reasons: false
+Reasons-Allowed: []
+Report-Reason: '&c&l(!) &cYou can not report with that reason!'
+Report_Format:
+ - '&6&l*&e&l*&6&l* &e&lNew Report &6&l*&e&l*&6&l*' 
+ - ''
+ - '&6* &eReport By &7%player%'
+ - '&6* &ePlayer Reported &7%player2%'
+ - '&6* &eReason &7%reason%'
+ - '&6* &eCloud &7%server%'
+ - ''
+Report_Format_Footer: |-
+  &r
+  &7&o(( Tip: &f&oLeft Click &7&oon the teleport button to check the report! ))
+Goto_Msg: '&a&l[Teleport Button]'
+Goto_Hover_Msg: '&7&o(( Tip: &f&oLeft Click &7&oto teleport! ))'
+Goto_Connect: '&c&l(!) &cYou has been connected to the cloud!'
+Goto_Same_Server: '&c&l(!) &cYou are already connected to this cloud!'
+Storege_Format: '&c&l(!) &7%player2% &chas been reported by &7%player% &cfor &7%reason%&con &7%date%&c!'
+GetReports:
+  Header: ''
+  Footer: ''
+  Usage: '&c&l(!) &cIncorrect usage! Use "/reports <player>" instead!'
+Reports_Empty: '&c&l(!) &cThis player has no been reported!'
+History_Deleted: '&c&l(!) &cThe &7%player% &creports have been deleted!'
+DelHistory_Usage: '&c&l(!) &cIncorrect usage! Use "/delreports <player>" instead!'
+Title:
+  Enabled: true
+  Title: '&c(!) &cNew Report!'
+  Sub_Title: '&6&l* &eReported &f%player2%'
+  Fade_in: 1
+  Stay: 3
+  Fade_out: 1

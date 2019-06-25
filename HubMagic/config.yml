@@ -1,0 +1,32 @@
+servers:
+- Hub
+required-client-versions:
+  Hub: []
+ping-duration: 3
+type: random
+connection-handler: reconnect
+ping-strategy: bungee
+kicks-lead-to-hub:
+   enabled: true
+   mode: 'reasons'
+   reasons: []
+   servers: []
+   message: |-
+     &6&l*&e&l*&6&l* &e&lYou Have Been Kicked &6&l*&e&l*&6&l*
+     &r
+     &6* &eKicked From &7%server%
+     &6* &eReason &7%kick-reason%
+     &r
+     &7&o(( You have been connected to the hub server! ))
+   selector: random
+   blacklist: true
+hub-command:
+   enabled: true
+   requires-permission: true
+   aliases:
+   - hub
+   forwarding:
+      global: []
+   messages:
+      already_connected: '&c&l(!) &cYou are already on the &7hub &cserver!'
+      no_hubs_available: '&c&l(!) &cNo hubs are currently available to connect to!'

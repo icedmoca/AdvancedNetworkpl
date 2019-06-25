@@ -1,0 +1,13 @@
+default:
+  chat:
+    type: blacklist
+    list: []
+  commands:
+    type: blacklist
+    list: []
+  servers:
+    type: blacklist
+    list: []
+  players:
+    type: blacklist
+    list: []

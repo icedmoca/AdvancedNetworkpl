@@ -1,0 +1,419 @@
+time_format: dd/MM/yyyy HH:mm aaa
+history_time_format: dd/MM/yyyy HH:mm aaa
+banned_message_base: ''
+banned_message: |-
+  &c▉▉▉▉▉▉▉▉
+  &c▉▉▉&f▉▉&c▉▉▉
+  &c▉▉▉&f▉▉&c▉▉▉
+  &c▉▉▉&f▉▉&c▉▉▉
+  &c▉▉▉&f▉▉&c▉▉▉
+  &c▉▉▉▉▉▉▉▉
+  &c▉▉▉&f▉▉&c▉▉▉
+  &c▉▉▉▉▉▉▉▉
+  &r
+  &c&l(!) &cYou have been banned!
+  &r
+  &6&l* &eReason &7$reason
+  &6&l* &eDuration &7$duration
+  &6&l* &eBanned By &7$executor
+  &6&l* &eBanned On &7$dateStart
+  &r
+  &7&o(( Purchase an unban @ &f&ostore.vanillawars.net&7&o! ))
+banned_message_permanent: |-
+  &c▉▉▉▉▉▉▉▉
+  &c▉▉▉&f▉▉&c▉▉▉
+  &c▉▉▉&f▉▉&c▉▉▉
+  &c▉▉▉&f▉▉&c▉▉▉
+  &c▉▉▉&f▉▉&c▉▉▉
+  &c▉▉▉▉▉▉▉▉
+  &c▉▉▉&f▉▉&c▉▉▉
+  &c▉▉▉▉▉▉▉▉
+  &r
+  &c&l(!) &cYou have been banned!
+  &r
+  &6&l* &eReason &7$reason
+  &6&l* &eDuration &7$duration
+  &6&l* &eBanned By &7$executor
+  &6&l* &eBanned On &7$dateStart
+  &r
+  &7&o(( Purchase an unban @ &f&ostore.vanillawars.net&7&o! ))
+banned_message_appeal_message: ''
+banned_message_geoip_blacklist: |-
+  &c&l(!) &cYou have been banned!
+  &r
+  &6&l* &eLocation &7$geoip
+  &r
+  &7&o(( Your location is blacklisted on this network! ))
+bungee_switch_banned: '&c&l(!) &cYou are banned on &7$serverScope &cfor &7$reason&c!'
+default_ban_reason: No reason specified
+default_mute_reason: No reason specified
+permission_error: |-
+  &r
+  &c▉▉▉▉▉▉▉▉
+  &c▉▉▉&f▉▉&c▉▉▉                   &f&l<&c&l!&f&l> &c&lError 403 &f&l<&c&l!&f&l>
+  &c▉▉▉&f▉▉&c▉▉▉
+  &c▉▉▉&f▉▉&c▉▉▉   &c&l(!) &cYou do not have access to that command!
+  &c▉▉▉&f▉▉&c▉▉▉  &7&o(( You need to be staff to use this command! ))
+  &c▉▉▉▉▉▉▉▉
+  &c▉▉▉&f▉▉&c▉▉▉         &eCopyright © 2019 &f&nwww.vanillawars.net
+  &c▉▉▉▉▉▉▉▉
+  &r
+muted: |-
+  &r
+  &e▉▉▉▉▉▉▉▉ &c&l(!) &cYou have been muted!
+  &e▉▉&0▉&e▉▉&0▉&e▉▉
+  &e▉▉&0▉&e▉▉&0▉&e▉▉ &6&l* &eReason &7$reason
+  &e▉▉▉▉▉▉▉▉ &6&l* &eDuration &7$duration
+  &e▉▉&0▉▉▉▉&e▉▉ &6&l* &eMuted By &7$executor
+  &e▉&0▉&e▉▉▉▉&0▉&e▉ &6&l* &eMuted On &7$dateStart
+  &e▉&0▉&e▉▉▉▉&0▉&e▉
+  &e▉▉▉▉▉▉▉▉ &7&o(( Purchase an unmute @ &f&ostore.vanillawars.net&7&o! ))
+  &r
+muted_permanent: |-
+  &r
+  &e▉▉▉▉▉▉▉▉ &c&l(!) &cYou have been muted!
+  &e▉▉&0▉&e▉▉&0▉&e▉▉
+  &e▉▉&0▉&e▉▉&0▉&e▉▉ &6&l* &eReason &7$reason
+  &e▉▉▉▉▉▉▉▉ &6&l* &eDuration &7$duration
+  &e▉▉&0▉▉▉▉&e▉▉ &6&l* &eMuted By &7$executor
+  &e▉&0▉&e▉▉▉▉&0▉&e▉ &6&l* &eMuted On &7$dateStart
+  &e▉&0▉&e▉▉▉▉&0▉&e▉
+  &e▉▉▉▉▉▉▉▉ &7&o(( Purchase an unmute @ &f&ostore.vanillawars.net&7&o! ))
+  &r
+notify:
+  banned_player_join: '&c&l(!) &7$player &ctried to join, but is banned! &8(&6$duration&8)'
+  banned_geoip_blacklist: '&c&l(!) &7$player&f tried to join, but is blacklisted!
+    &8(&6$geoip&8)'
+error_no_reason_provided: '&c&l(!) &cYou must provide a reason for this punishment!'
+error_no_sql_connection: '&c&l(!) &cLiteBans is not connected to a database!'
+error_no_uuid_found: '&c&l(!) &cPlayer does not exist!'
+error_console_only: '&c&l(!) &cThis command can only be used from console!'
+internal_error: '&c&l(!) &cAn internal error occurred while attempting to perform
+  this command!'
+duration_limit_error: '&c&l(!) &cMaximum duration allowed: &7$duration'
+warned_join: '&c&l(!) &cYou have new warnings:'
+warned_join_entry: |-
+  &r
+  &r &6&l* &eTimestamp &7$timeSince ago
+  &r   &7&o(( Warned by &f&o$executor &7&ofor &f&o$reason&7&o! ))
+command:
+  ban:
+    usage: '&c&l(!) &cIncorrect usage! Use "$command [-s] <player> [time spec] [reason]"
+      instead!'
+    unban_usage: '&c&l(!) &cIncorrect usage! Use "$command <player>" instead!'
+    example: ''
+    silent_prefix: '&e⚠&r '
+    broadcast_ban: '&c&l[!] &7$executor &cbanned &7$bannedPlayer &cfor &7$reason&c!'
+    broadcast_tempban: '&c&l[!] &7$executor &ctempbanned &7$bannedPlayer &cfor &7$tempDuration
+      &cfor &7$reason&c!'
+    broadcast_ip_ban: '&c&l[!] &7$executor &cIP-Banned &7$bannedPlayer &cfor &7$reason&c!'
+    broadcast_temp_ip_ban: '&c&l[!] &7$executor &ctemp IP-Banned &7$bannedPlayer &cfor
+      &7$tempDuration &cfor &7$reason&c!'
+    broadcast_ip_ban_hidden: '[Hidden IP]'
+    broadcast_unban: '&c&l[!] &7$executor &cunbanned &7$playerName&c!'
+    previous_ban_removed: '&c&l(!) &cPrevious ban for &7$bannedPlayer &cremoved!'
+    previous_ban_existing: '&c&l(!) &7$bannedPlayer &cis already banned, and you do
+      not have permissions to replace existing bans!'
+    unban_queue: '&c&l(!) &cIf they try to reconnect, they will be unbanned!'
+    error_no_spec: '&c&l(!) &cNo valid time specification detected!'
+    unban_fail: '&c&l(!) &cTarget is not banned!'
+    no_override: '&c&l(!) &cPlayer is already banned!'
+    exempt: '&c&l(!) &cYou can''t ban &7$player&c!'
+    cooldown: '&c&l(!) &cYou need to wait &7$seconds seconds &cbefore you can use
+      this command again!'
+    response: ''
+  mute:
+    usage: '&c&l(!) &cIncorrect usage! Use "$command [-s] <player> [time spec] [reason]"
+      instead!'
+    unmute_usage: '&c&l(!) &cIncorrect usage! Use "$command <player>" instead!'
+    example: ''
+    broadcast: '&c&l[!] &7$executor &cmuted &7$mutedPlayer &cfor &7$reason&c!'
+    broadcast_tempmute: '&c&l[!] &7$executor &ctempmuted &7$mutedPlayer &cfor &7$tempDuration
+      &cfor &7$reason&c!'
+    broadcast_ip_mute: '&c&l[!] &7$executor &cIP-Muted &7$mutedPlayer &cfor &7$reason&c!'
+    broadcast_temp_ip_mute: '&c&l[!] &7$executor &ctemp IP-Muted &7$mutedIP &cfor
+      &7$tempDuration &cfor &7$reason&c!'
+    message: |-
+      &r
+      &c▉▉▉▉▉▉▉▉ &c&l(!) &cYou have been muted!
+      &c▉▉▉&f▉▉&c▉▉▉
+      &c▉▉▉&f▉▉&c▉▉▉ &6&l* &eReason &7$reason
+      &c▉▉▉&f▉▉&c▉▉▉ &6&l* &eDuration &7$duration
+      &c▉▉▉&f▉▉&c▉▉▉ &6&l* &eMuted By &7$executor
+      &c▉▉▉▉▉▉▉▉ &6&l* &eMuted On &7$dateStart
+      &c▉▉▉&f▉▉&c▉▉▉
+      &c▉▉▉▉▉▉▉▉ &7&o(( Purchase an unmute @ &f&ostore.vanillawars.net&7&o! ))
+      &r
+    message_permanent: |-
+      &r
+      &c▉▉▉▉▉▉▉▉ &c&l(!) &cYou have been muted!
+      &c▉▉▉&f▉▉&c▉▉▉
+      &c▉▉▉&f▉▉&c▉▉▉ &6&l* &eReason &7$reason
+      &c▉▉▉&f▉▉&c▉▉▉ &6&l* &eDuration &7$duration
+      &c▉▉▉&f▉▉&c▉▉▉ &6&l* &eMuted By &7$executor
+      &c▉▉▉▉▉▉▉▉ &6&l* &eMuted On &7$dateStart
+      &c▉▉▉&f▉▉&c▉▉▉
+      &c▉▉▉▉▉▉▉▉ &7&o(( Purchase an unmute @ &f&ostore.vanillawars.net&7&o! ))
+      &r
+    broadcast_unmute: '&c&l[!] &7$executor &cunmuted &7$bannedPlayer&c!'
+    unmute_fail: '&c&l(!) &cTarget is not muted!'
+    no_override: '&c&l(!) &cPlayer is already muted!'
+    previous_mute_removed: '&c&l(!) &cPrevious mute for &7$mutedPlayer &cremoved!'
+    previous_mute_existing: '&c&l(!) &7$mutedPlayer &cis already banned, and you do
+      not have permissions to replace existing mutes!'
+    exempt: '&c&l(!) &cYou can''t mute $player!'
+    notification: '&c&l(!) &7$mutedPlayer &ctried to speak, but is muted!'
+    error_not_enabled: '&c&l(!) &cMuting is not enabled in the configuration!'
+    response: ''
+  warn:
+    usage: '&c&l(!) &cIncorrect usage! Use "$command [-s] <player> [reason]" instead!'
+    unwarn_usage: '&c&l(!) &cIncorrect usage! Use "$command <player>" instead!'
+    example: ''
+    broadcast: '&c&l[!] &7$executor &cwarned &7$warnedPlayer &cfor &7$reason&c!'
+    message: |-
+      &r
+      &c▉▉▉▉▉▉▉▉ &c&l(!) &cYou have been warned!
+      &c▉▉▉&f▉▉&c▉▉▉
+      &c▉▉▉&f▉▉&c▉▉▉ &6&l* &eWarned By &7$executor
+      &c▉▉▉&f▉▉&c▉▉▉ &6&l* &eWarned On &7$dateStart
+      &c▉▉▉&f▉▉&c▉▉▉ &6&l* &eReason &7$reason
+      &c▉▉▉▉▉▉▉▉ &6&l* &eCloud Origin &7$serverOrigin
+      &c▉▉▉&f▉▉&c▉▉▉
+      &c▉▉▉▉▉▉▉▉ &7&o(( This warning will expire in &f&o$duration&7&o! ))
+      &r
+    list_entry: ' \- Warned by $executor: ''$reason&f'''
+    unwarn_response: '&c&l(!) &cLast warning removed for &7$player&c!'
+    unwarn_fail: '&c&l(!) &cTarget has no warnings!'
+    exempt: '&c&l(!) &cYou can''t warn &7$player&c!'
+    cooldown: '&c&l(!) &cYou need to wait &7$seconds seconds &cbefore you can use
+      this command again!'
+    response: ''
+  history:
+    usage: '&c&l(!) &cIncorrect usage! Use "$command <player> [entries=10]" instead!'
+    start: '&c&l(!) &cHistory for &7$target&c:'
+    ban_entry: |-
+      &r
+      &r &6&l* &eTimestamp &7$timeSince ago
+      &r &6&l* &eBan &7$name &cwas &7banned &cby &7$executor &cfor &7$reason&c!
+    mute_entry: |-
+      &r
+      &r &6&l* &eTimestamp &7$timeSince ago
+      &r &6&l* &eMute &7$name &cwas &7muted &cby &7$executor &cfor &7$reason&c!
+    warn_entry: |-
+      &r
+      &r &6&l* &eTimestamp &7$timeSince ago
+      &r &6&l* &eWarn &7$name &cwas &7warned &cby &7$executor &cfor &7$reason&c!
+    kick_entry: |-
+      &r
+      &r &6&l* &eTimestamp &7$timeSince ago
+      &r &6&l* &eKick &7$name &cwas &7kicked &cby &7$executor &cfor &7$reason&c!
+    unban_entry: |-
+      &r
+      &r
+      &r &6&l* &eTimestamp &7$timeSince ago
+      &r &6&l* &eUnban &7$name &cwas &7unbanned &cby &7$executor&c!
+    unmute_entry: |-
+      &r
+      &r
+      &r &6&l* &eTimestamp &7$timeSince ago
+      &r &6&l* &eUnmute &7$name &cwas &7unmuted &cby &7$executor&c!
+    active_suffix: '&r &8(&cActive&8)'
+    expired_suffix: '&r &8(&eExpired&8)'
+    active_suffix_temp: |-
+      &r &8(&cActive&8)
+      &r   &7&o(( Expires in &f&o$duration&7&o! ))
+    error_no_history: '&c&l(!) &cNo history found!'
+  warnings:
+    usage: '&c&l(!) &cIncorrect usage! Use "$command <player>" instead!'
+    start: '&c&l(!) &cActive warnings for &7$target&c:'
+  prunehistory:
+    usage: '&c&l(!) &cIncorrect usage! Use "$command <player> [duration]" instead!'
+    message: '&e&l(!) &eHistory pruned!'
+  staffhistory:
+    usage: '&c&l(!) &cIncorrect usage! Use "$command <player> [entries=10]" instead!'
+    start: '&c&l(!) &cStaff history for &7$target&c:'
+  staffrollback:
+    usage: '&c&l(!) &cIncorrect usage! Use "$command <player> [duration]" instead!'
+    message: '&c&l(!) &cRollback completed, removed &7$amount &ctotal entries!'
+  banlist:
+    start: '&c&l(!) &cBan list page &7$page &cout of &7$total&c:'
+  iphistory:
+    usage: '&c&l(!) &cIncorrect usage! Use "$command <player> [entries=10]" instead!'
+    start: '&c&l(!) &cLogin history for &7$target&c:'
+    entry: |-
+      &r
+      &r &6&l* &eDate &7$date
+      &r &6&l* &eAddress &7$ip
+    error_no_history: '&c&l(!) &cNo history found!'
+  dupeip:
+    usage: '&c&l(!) &cIncorrect usage! Use "$command <player>" instead!'
+    start: '&c&l(!) &cScanning &7$name &con &7$ip&c...'
+    start_no_ip: '&c&l(!) &cScanning &7$name&c...'
+    separator: '&c, '
+    online: '&e[ONLINE] &7'
+    offline: '&e[OFFLINE] &7'
+    banned: '&e[BANNED] &7'
+    muted: '&e[MUTED] &7'
+    multiple_addresses: '[$num addresses]'
+  ipreport:
+    start: '&c&l(!) &cScanning &7$num &conline players...'
+    entry: '&r &6&l* &e$player &r$result'
+  checkban:
+    usage: '&c&l(!) &cIncorrect usage! Use "$command <player>" instead!'
+    no_ban: '&c&l(!) &cTarget is not banned!'
+    banned: |-
+      &e&l(!) &eCheck ban for &6$playerName&e:
+      &r
+       &6&l* &eSilent &7$silent
+       &6&l* &eIP Ban &7$ipban
+       &6&l* &eReason &7$reason
+       &6&l* &eDuration &7$duration
+       &6&l* &eBanned By &7$executor
+       &6&l* &eBanned On &7$dateStart
+      &r
+      &7&o(( &f&o$target &7&obanned on &f&o$serverOrigin &7&ocloud! ))
+  checkmute:
+    usage: '&c&l(!) &cIncorrect usage! Use "$command <player>" instead!'
+    no_mute: '&c&l(!) &cTarget is not muted!'
+    muted: |-
+      &e&l(!) &eCheck mute for &6$playerName&e:
+      &r
+       &6&l* &eSilent &7$silent
+       &6&l* &eIP Mute &7$ipban
+       &6&l* &eReason &7$reason
+       &6&l* &eDuration &7$duration
+       &6&l* &eMuted By &7$executor
+       &6&l* &eMuted On &7$dateStart
+      &r
+      &7&o(( &f&o$target &7&omuted on &f&o$serverOrigin &7&ocloud! ))
+  lastuuid:
+    usage: '&c&l(!) &cIncorrect usage! Use "$command <player|IP>" instead!'
+    message: '&e&l(!) &eLast UUID for &6$name&e: &6$uuid'
+  geoip:
+    usage: '&c&l(!) &cIncorrect usage! Use "$command <player|IP>" instead!'
+    message: '&e&l(!) &6$target &eis from &6$result&e!'
+    error_disabled: '&c&l(!) &cGeoIP support is not enabled in the configuration!'
+    error_unavailable: '&c&l(!) &cGeoIP support is currently unavailable!'
+    error_not_found: '&c&l(!) &cGeoIP information for &7$target &cnot found!'
+  lockdown:
+    usage: '&c&l(!) &cIncorrect usage! Use "$command [<reason>|end]" instead!'
+    message: '&c&l(!) &cServer lockdown activated for &7$reason&c!'
+    stopped: '&e&l(!) &eLockdown has been deactivated!'
+    kick_message: |-
+      &c&l(!) &cCloud lockdown active!
+      &r
+      &6&l* &eReason &7$reason
+      &r
+      &7&o(( Try to connect again later! ))
+    kick_message_global: |-
+      &c&l(!) &cNetwork lockdown active!
+      &r
+      &6&l* &eReason &7$reason
+      &r
+      &7&o(( Try to connect again later! ))
+    error_not_active: '&c&l(!) &cLockdown is not active!'
+  kick:
+    usage: '&c&l(!) &cIncorrect usage! Use "$command <player> [reason]" instead!'
+    no_match: '&c&l(!) &cPlayer not found!'
+    kick_requested: '&c&l(!) &7$player is not online on this network!'
+    message: |-
+      &c▉▉▉▉▉▉▉▉
+      &c▉▉▉&f▉▉&c▉▉▉
+      &c▉▉▉&f▉▉&c▉▉▉
+      &c▉▉▉&f▉▉&c▉▉▉
+      &c▉▉▉&f▉▉&c▉▉▉
+      &c▉▉▉▉▉▉▉▉
+      &c▉▉▉&f▉▉&c▉▉▉
+      &c▉▉▉▉▉▉▉▉
+      &r
+      &c&l(!) &cYou have been kicked!
+      &r
+      &6&l* &eReason &7$reason
+      &6&l* &eKicked By &7$executor
+      &6&l* &eKicked On &7$dateStart
+      &6&l* &eCloud Origin &7$serverOrigin
+      &r
+      &7&o(( Try not to do that again! ))
+    message_no_reason: |-
+      &c▉▉▉▉▉▉▉▉
+      &c▉▉▉&f▉▉&c▉▉▉
+      &c▉▉▉&f▉▉&c▉▉▉
+      &c▉▉▉&f▉▉&c▉▉▉
+      &c▉▉▉&f▉▉&c▉▉▉
+      &c▉▉▉▉▉▉▉▉
+      &c▉▉▉&f▉▉&c▉▉▉
+      &c▉▉▉▉▉▉▉▉
+      &r
+      &c&l(!) &cYou have been kicked!
+      &r
+      &6&l* &eReason &7No reason specified
+      &6&l* &eKicked By &7$executor
+      &6&l* &eKicked On &7$dateStart
+      &6&l* &eCloud Origin &7$serverOrigin
+      &r
+      &7&o(( Try not to do that again! ))
+    response: ''
+    broadcast: '&c&l[!] &7$player &cwas kicked by &7$executor &cfor &7$reason&c!'
+    broadcast_no_reason: '&c&l[!] &7$player &cwas kicked by &7$executor &cfor &7No
+      reason specified&c!'
+    exempt: '&c&l(!) &cYou can''t kick &7$player&c!'
+  togglechat:
+    toggle_off: '&c&l(!) &cChat has been toggled off!'
+    toggle_on: '&e&l(!) &eChat has been toggled on!'
+  clearchat:
+    broadcast: |-
+      &r           &6&l*&e&l*&6&l* &e&l&nGLOBAL CHAT HAS BEEN CLEARED&r &6&l*&e&l*&6&l*
+      &r
+  mutechat:
+    response: '&c&l(!) &cGlobal chat is currently &7disabled&c!'
+    broadcast_disabled: '&c&l(!) &cGlobal chat has been disabled by &7$executor&c!'
+    broadcast_enabled: '&e&l(!) &eGlobal chat has been enabled by &6$executor&c!'
+  litebans:
+    reload_success: '&e&l(!) &eThe plugin has been &6successfully &ereloaded!'
+    reload_fail_connect: '&c&l(!) &cFailed to connect to database!'
+    reload_fail: '&c&l(!) &cReload failed!'
+    reload_fail_config: '&c&l(!) &cThe file &7config.yml &cis not valid and could
+      not be loaded!'
+    reload_fail_messages: '&c&l(!) &cThe file &7messages.yml &cis not valid and could
+      not be loaded!'
+    add_history_usage: '&c&l(!) &cIncorrect usage! Use "$command addhistory <name>
+      <UUID> <IP>" instead!'
+    add_history: '&e&l(!) &eHistory added!'
+    fix_history: '&e&l(!) &eFixing history for table &6$table&e...'
+    fix_history_result: '&e&l(!) &eAdded &6$amount &eentries!'
+    fix_history_offline_uuids: '&c&l(!) &7$amount &cUUID''s were not fetched from
+      Mojang since they are offline-mode UUID''s!'
+    import_usage: '&e&l(!) &6$command &eimport start!'
+    import_start: '&e&l(!) &eImporting from &6$db&e, this might take a while...'
+    import_finish: '&e&l(!) &eImport finished successfully! &6$bans &ebans imported,
+      &6$ipbans &eIP-Bans!'
+    import_finish_litebans: '&e&l(!) &eImport finished successfully! Added &6$amount
+      &eentries to the database!'
+    import_fail: '&c&l(!) &cImport failed!'
+    import_unsupported: '&c&l(!) &cImporting from &7$name &cis not supported yet!'
+    sqlexec_success: '&e&l(!) &eSQL query executed successfully!'
+    sqlexec_failure: '&c&l(!) &cFailed to execute!'
+duration:
+  expired: Expired
+  forever: Permanent
+  year: Year
+  years: Years
+  month: Month
+  months: Months
+  week: Week
+  weeks: Weeks
+  day: Day
+  days: Days
+  hour: Hour
+  hours: Hours
+  minute: Minute
+  minutes: Minutes
+  second: Second
+  seconds: Seconds
+  format: '%d %s'
+  separator: ', '
+strings:
+  global: Global
+  'null': Undefined
+  'true': 'Yes'
+  'false': 'No'
